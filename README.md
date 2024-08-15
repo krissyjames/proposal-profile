@@ -1,4 +1,4 @@
 # proposal-profile
 Proposal repository
 
-pancakes
+![Paws and Whiskers Rescue Proposal Wireframe](ProposalWireframe.png)
