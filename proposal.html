@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale 1.0">
     <title>Meet Pancakes!</title>
+    <link rel="stylesheet" href="proposal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <div id="name-logo">
+        <div class="header-image">
             <img src="https://placehold.co/150x150/png" alt="Paws and Whiskers Rescue Logo">
-        </div>
-        <div id="search-bar">
-            <input type="text" placeholder="Enter a search term...">
-            <button type="submit">Search</button>
-        </div>
-        <div id="language-selector">
-            <button onclick="myFunction()" class="dropbtn">EN-US</button>
-            <div id="language-dropdown"
-            </div>
+        </div>    
+        <div class="header-buttons">
+            <input class="search-box" type="text" placeholder="Enter a search term...">
+            <button class="search-box" type="submit"><i class="fa fa-search"></i></button>
+            <button class="language" onclick="myFunction()"><i class="fa fa-globe"></i></button>
         </div>
         <nav class="navbar">
-            <a href="#adopt">ADOPT & FOSTER</a>
-            <a href="#donate">DONATE</a>
-            <a href="#volunteer">VOLUNTEER</a>
-            <a href="#aboutus">ABOUT US</a>
-            <a href="#profile">PROFILE</a>
+            <ul>
+                <li><a href="#adopt">ADOPT & FOSTER</a></li>
+                <li><a href="#donate">DONATE</a></li>
+                <li><a href="#volunteer">VOLUNTEER</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#profile">PROFILE</a></li>
+            </ul>
         </nav>
     </header>
     <main>
