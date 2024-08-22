@@ -1,9 +1,12 @@
 * {
     color: #1b1b1b
 }
+body {
+    background-color: #fefae0;
+}
 header {
     font-size: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     background-color: #fefae0;
 }
 .header-image {
@@ -37,4 +40,26 @@ ul li {
 }
 ul li a {
     text-decoration: 0;
+}
+h2 {
+    text-align: left;
+    background-color: #e89149;
+    padding: 10px;
+}
+#main-image {
+float: left;
+width: 300px;
+margin-left: 50px;
+margin-right: 100px;
+}
+.small-one {
+margin-right: 96px;
+}
+
+.pet-name {
+    display:inline-block;
+}
+#bio {
+    margin: 60px 60px 1px 50px;
+    text-align: justify;
 }
