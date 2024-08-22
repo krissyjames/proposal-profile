@@ -1,8 +1,9 @@
 * {
-    color: #1b1b1b
+    
 }
 body {
     background-color: #fefae0;
+    color: #1b1b1b
 }
 header {
     font-size: 0px;
@@ -40,11 +41,13 @@ ul li {
 }
 ul li a {
     text-decoration: 0;
+    color: #1b1b1b
 }
-h2 {
+h1 {
     text-align: left;
     background-color: #e89149;
     padding: 10px;
+    font-size: 30px;
 }
 #main-image {
 float: left;
@@ -58,8 +61,36 @@ margin-right: 96px;
 
 .pet-name {
     display:inline-block;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.favorite-button {
+    font-size: 20px;
+    border: 0px;
+    color: #83a785;
 }
 #bio {
     margin: 60px 60px 1px 50px;
-    text-align: justify;
+}
+#adopt-donate {
+    margin-top: 25px;
+}
+.adopt {
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-right: 75px;
+    text-indent: -50px;
+    background-color: #caeafc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.donate {
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-indent: -50px;
+    background-color: #caeafc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
