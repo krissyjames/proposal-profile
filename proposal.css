@@ -80,17 +80,39 @@ margin-right: 96px;
     height: 50px;
     width: 150px;
     margin-right: 75px;
-    text-indent: -50px;
     background-color: #caeafc;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+.adopt::after {
+    font-family: "FontAwesome";
+    content: '\f1b0';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 10px;
+    color:#83a785;
 }
 .donate {
     border-radius: 5px;
     height: 50px;
     width: 150px;
-    text-indent: -50px;
     background-color: #caeafc;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+.donate::after {
+    font-family: "FontAwesome";
+    content: '\f06b';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 10px;
+    color:#83a785;
+}
+#sex::after {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "FontAwesome";
+    content: '\f222';
+    margin: 5px;
 }
