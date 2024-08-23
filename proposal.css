@@ -2,13 +2,13 @@
     
 }
 body {
-    background-color: #fefae0;
+    background-color: #fafafa;
     color: #1b1b1b
 }
 header {
     font-size: 0px;
     margin-bottom: 10px;
-    background-color: #fefae0;
+    background-color: #fafafa;
 }
 .header-image {
     float: left;
@@ -68,6 +68,7 @@ margin-right: 96px;
     font-size: 20px;
     border: 0px;
     color: #83a785;
+    background-color: #fafafa;
 }
 #bio {
     margin: 60px 60px 1px 50px;
@@ -115,4 +116,9 @@ margin-right: 96px;
     font-family: "FontAwesome";
     content: '\f222';
     margin: 5px;
+}
+.other-pets {
+    background-color:#e89149;
+    padding: 10px;
+    text-align: center;
 }
