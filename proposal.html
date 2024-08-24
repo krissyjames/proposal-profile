@@ -14,7 +14,8 @@
             <img src="https://placehold.co/150x150/png" alt="Paws and Whiskers Rescue Logo">
         </div>    
         <div class="header-buttons">
-            <input class="search-box" type="text" placeholder="Enter a search term...">
+            <input class="search-box" id="search-box" type="text" placeholder="Enter a search term...">
+            <label for="search-box">Search</label>
             <button class="search-box search-icon" type="submit"><i class="fa fa-search"></i></button>
             <button class="language" onclick="myFunction()"><i class="fa fa-globe"></i></button>
         </div>
@@ -61,14 +62,18 @@
         </section>
         <section>
             <h2 class="other-pets">Meet Other Pets Like Pancakes!</h2>
-            <div class="meet-cards">
-                <img src="https://placehold.co/150x150/png" alt="Black and white sitting Border Collie dog named Bella">
-                <a class="button-link" href="https://www.google.com">Meet Bella</a>
-                <img src="https://placehold.co/150x150/png" alt="Brown and white laying Corgi mix dog named Butter">
-                <a class="button-link" href="https://www.google.com">Meet Butter</a>
-                <div id="more-card">
-                    <p>88 dogs available</p>
-                    <a class="button-card" href="https://www.amazon.com">Meet us!</a>
+            <div class="meet">
+                <div class="meet-cards">
+                    <img src="https://placehold.co/150x150/png" alt="Black and white sitting Border Collie dog named Bella" class="meet-image">
+                    <a class="button-link" href="https://www.google.com"><b>Meet Bella</b></a>
+                </div>
+                <div class="meet-cards">
+                    <img src="https://placehold.co/150x150/png" alt="Brown and white laying Corgi mix dog named Butter" class="meet-image">
+                    <a class="button-link" href="https://www.google.com"><b>Meet Butter</b></a>
+                </div>
+                <div class="more-card meet-cards">
+                    <p><b>88 more dogs available</b></p>
+                    <a class="button-link" href="https://www.amazon.com"><b>Meet us!</b></a>
                 </div>
             </div>
         </section>

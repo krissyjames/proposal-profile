@@ -122,3 +122,39 @@ margin-right: 96px;
     padding: 10px;
     text-align: center;
 }
+.meet {
+    height: 350px;
+    margin: 0px 200px 0px 200px;
+}
+.meet-cards {
+    display: inline-block;
+    margin-left: 50px;
+    height: 200px;
+    padding: 30px;
+    border: solid;
+    vertical-align: middle;
+    background-color:#caeafc
+}
+.meet-image {
+    display: block;
+    border: solid;
+    margin-bottom: 10px;
+}
+.more-card p {
+    text-align: center;
+    font-size: 20px;
+    height: 85px;
+    width: 156px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 65px;
+    border: solid;
+    background-color: #fafafa;
+}
+.button-link {
+    color:#1b1b1b;
+    font-size: 20px;
+}
+#company-logo2 {
+
+}
