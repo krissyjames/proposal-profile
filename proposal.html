@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale 1.0">-->
     <title>Meet Pancakes!</title>
     <link rel="stylesheet" href="proposal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,11 +63,11 @@
         <section>
             <h2 class="other-pets">Meet Other Pets Like Pancakes!</h2>
             <div class="meet">
-                <div class="meet-cards">
+                <div class="meet-cards card1">
                     <img src="https://placehold.co/150x150/png" alt="Black and white sitting Border Collie dog named Bella" class="meet-image">
                     <a class="button-link" href="https://www.google.com"><b>Meet Bella</b></a>
                 </div>
-                <div class="meet-cards">
+                <div class="meet-cards card2">
                     <img src="https://placehold.co/150x150/png" alt="Brown and white laying Corgi mix dog named Butter" class="meet-image">
                     <a class="button-link" href="https://www.google.com"><b>Meet Butter</b></a>
                 </div>
@@ -79,36 +79,40 @@
         </section>
     </main>
     <footer>
-        <div id="company-logo2">
+        <div class="company-logo2">
             <img src="https://placehold.co/100x100/png" alt="Paws and Whiskers Rescue Logo">
         </div>
-        <div id="company-contact">
-            <h3>Contact Us!</h3>
-            <p>HQ Phone: <b>313-555-5555</b></p>
-            <p>HQ Address: <b>17159 Gratiot Detroit, MI 44823</b></p>
-            <p>Email: <b><a href="mailto:support@pawsandwhiskers.org">support@pawsandwhiskers.org</a></b></p>
-        </div>
-        <div id="footer-nav">
-            <h3>Site Map</h3>
-            <ul>
-                <li><a href="#aboutus">About Us</a></li>
-                <li><a href="#adopt">Adopt & Foster</a></li>
-                <li><a href="#donate">Donate</a></li>
-                <li><a href="#volunteer">Volunteer</a></li>
-                <li><a href="#signup">Create Profile</a></li>
-                <li><a href="#careers">Work for Us</a></li>
-                <li><a href="#privacy">Privacy Policy</a></li>
-            </ul>
-        </div>
-        <div id="newsletter-signup">
-            <h3>Sign Up for Our Newsletter</h3>
-            <form action="https://google.com">
-                <label for="fname">First Name</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email"><br>
-                <input type="submit" value="Subscribe">
-            </form>
+        <div class="footer-main">
+            <div class="company-contact">
+                <h3 class="contact foot-h3">Contact Us!</h3>
+                <p>HQ Phone: <b>313-555-5555</b></p>
+                <p>HQ Address: <b>17159 Gratiot Detroit, MI 44823</b></p>
+                <p>Email: <b><a href="mailto:support@pawsandwhiskers.org">support@pawsandwhiskers.org</a></b></p>
+            </div>
+            <div class="footer-nav">
+                <h3 class="site-map foot-h3">Site Map</h3>
+                <nav class="footnav">
+                    <ul>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#adopt">Adopt & Foster</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#volunteer">Volunteer</a></li>
+                        <li><a href="#signup">Create Profile</a></li>
+                        <li><a href="#careers">Work for Us</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="newsletter-signup">
+                <h3 class="foot-h3">Sign Up for Our Newsletter</h3>
+                <form action="https://google.com">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
         </div>     
     </footer>
 </body>
